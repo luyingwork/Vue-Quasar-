@@ -1,0 +1,144 @@
+@import '~variables'
+
+.payment
+  .email-address
+    margin-top 50px
+    margin-bottom 50px
+    .q-if-disabled
+      opacity 0.8
+    .q-input-target
+      height 48px
+      font-size 32px
+      font-weight $font-weight-regular
+      line-height 36px
+  .car-holder-details
+    margin-top 99px
+    .card-box
+      margin-top 56px
+  .billing-address
+    margin-top 80px
+    .btn-standard.selected
+      background-color $color-standard
+      color $white
+      .q-btn-inner
+        color $white
+    .address-box
+      margin-top 80px
+      margin-bottom 100px
+    .email-free
+      margin-top 46px
+      margin-bottom 38px
+  .bank-info
+    margin-top 100px
+    .direct-debit-title
+      color: $color-main
+      font-size: 20px
+      font-weight: $font-weight-regular
+      margin-left 10px
+    .direct-debit-description
+      margin-top 14px
+      height 76px
+      line-height 36px
+    .bank-account-box
+      margin-top 56px
+      margin-bottom 100px
+    //.direct-debit-note
+    //  margin-bottom 60px
+  ul.payment-summary, ul.previous-cards
+    border: 1px solid #E9F2F8
+    li
+      padding 12px 25px
+    li:nth-child(odd)
+      background-color: #F7F9FD
+    li.first
+        padding 26px 25px
+    li.total-payment
+      background-color $color-standard
+      p
+        color $white
+        text-align center
+        line-height 26px
+      p.first
+        font-size: 18px
+        font-weight: $font-weight-light
+      p.second
+        font-size: 24px
+        font-weight: $font-weight-regular
+        margin-top: 8px
+        margin-bottom: 3px
+      p.last
+        font-size: 14px
+        font-weight: $font-weight-light
+    li
+      .info-label, .info-value
+        color: $color-main
+        font-size: 18px
+      .info-label
+        font-weight: $font-weight-light
+      .info-value
+        font-weight: $font-weight-regular
+        text-align: right
+        display: flex
+        align-items: flex-end
+        justify-content: flex-end
+    li.total-credit-amount
+      .info-label, .info-value
+        display: block
+        text-align: center
+      .info-value
+        margin-top: 8px
+  .img-secured-box
+    margin-top 40px
+  .action-btn-box
+    margin-top: 60px
+    margin-bottom: 100px
+
+
+  .custom-check
+    margin-right 3%
+
+
+  .margin-top-main
+    margin-top 18px
+  .margin-top-27
+    margin-top 27px
+  .margin-top-35
+    margin-top 35px
+  .margin-top-41
+    margin-top 41px
+  .margin-top-53
+    margin-top 53px
+  .margin-top-56
+    margin-top 56px
+
+  .q-btn
+    color: $color-standard
+    //box-shadow none
+    .q-icon
+      font-size 18px
+      background transparent
+  .q-input-target
+    height: 38px
+    color $color-main
+    font-size: 28px
+    line-height: 38px
+.payment-confirm
+  .container
+    height 100vh
+    margin-top 0
+    margin-bottom 0
+    .content-main
+      margin: 0 5%
+      .description
+        margin-top 20px
+        margin-bottom 60px
+        height 151px
+        line-height: 36px
+
+
+@media screen and (max-width: 992px)
+  .payment
+    .payment-detail
+      order: 2
+    .payment-summary, .previous-cards
+      order: 1

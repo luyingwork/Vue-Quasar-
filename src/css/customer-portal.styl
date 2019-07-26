@@ -1,0 +1,477 @@
+@import '~variables'
+
+
+.q-layout-page-container
+  background-color: #F6F6F6
+.q-layout-page
+  background: #FFFFFF
+.quotes, .policies, .documents
+.claims, .account, .policy-cancel
+  background-color: #FFFFFF
+  margin: 0 3vw
+  padding 83px 3vw 100px 3vw
+.dashboard
+  padding-top: 0px
+  padding-bottom: 130px
+  background: url('~assets/img/bg-main.jpg')
+  background-repeat: no-repeat
+  background-size: contain
+  .dashboard-message
+    padding-top: 94px
+    padding-left: 8vw
+  .main-message
+    line-height: 84px
+    color: #4BC6DF
+    font-size: 70px
+    font-weight: bold
+  .sub-message
+    margin-top: 23px
+    margin-bottom: 49px
+    font-size: 24px
+    line-height: 32px
+  .sub-message.hidden-message
+    display: none
+  .wavy-line
+    height: 89px
+    background: url('~assets/img/waves.png')
+    background-repeat: no-repeat
+    background-size: cover
+  .dashboard-content
+    margin-top: -1px
+    padding: 96px 3vw 128px 3vw
+    background: #FFFFFF
+    .content-item
+      padding: 0 1vw
+      .content-item-box
+        padding: 0 1vw
+        margin-top: 7vh
+        background: transparent
+      .item-row-box
+        margin: 0 20px
+        padding: 10px 0
+        border-bottom: 1px solid #EAEAEA
+      .content-item-box
+        .renewal-date, .claim-note
+          padding: 5px 0
+    .content-item.document
+      margin-top: 7vh
+      padding: 0 1vw
+    .content-item.first, .content-item-box.first
+      padding-left: 0 !important
+    .content-item.last, .content-item-box.last
+      padding-right: 0 !important
+    .all-documents-box
+      padding-top: 60px !important
+      padding-bottom: 45px !important
+
+  .item-row-box:last-child
+    border-bottom: none !important
+  .btn-round-first, .btn-round-second
+    height: 40px
+    .q-btn-inner
+      font-size: 18px
+  .btn-make-change
+    width:180px
+  .btn-broken-down
+    width: 240px
+  .btn-buy
+    width: 82px
+  .btn-new-quote
+    width: 161px
+.policies
+  .page-content
+    .policy-info
+      .item-box-text-first
+        color: #CADEEF
+      .item-box-text-third
+        color: #FFFFFF
+    .other
+      .history
+        padding-right: 2vw
+      .page-title-other
+        margin-top: 62px
+        margin-bottom: 30px
+    .action-box
+      display: none
+      padding: 10px 30px
+      background-color: #2E2E2E
+      .item-box-text-second
+        padding-top:15px
+        padding-bottom:15px
+        padding-right: 30px
+      .action-btn-wrapper-box
+        width: 34px
+        height: 34px
+        margin-right: 44px0
+.policy-change
+  width: 80%
+  margin: 0 auto
+  padding-top: 83px
+  padding-bottom: 161px
+  .change-reason
+    margin-top:142px
+    .reason-kind-box
+      margin-top: 86px
+  .page-content
+    .payment-info
+      .row
+        margin-top: 14px
+        .page-title-sub
+          padding-right: 1%
+    ul.payment-summary
+      li
+        padding: 12px 25px
+        .info-label, .info-value
+          color: $color-main
+          font-size: 18px
+        .info-label
+          font-weight: $font-weight-light
+        .info-value
+          font-weight: $font-weight-regular
+          text-align: right
+          display: flex
+          align-items: flex-end
+          justify-content: flex-end
+      li.first
+        padding: 26px 24px
+    .payment-option-box
+      margin-top: 66px
+      .action-btn-box
+        margin: 38px 0px
+    .other-info-list
+      margin-top: 91px
+      margin-bottom: 100px
+      .collapsible-title
+        height: 60px
+        padding: 0px 22px
+        background: $color-standard
+        cursor: pointer
+        .q-icon
+          font-size: 30px
+      .excess
+        .collapsible-sub-title
+          height: 60px
+          padding: 0px 22px
+          background: $color-main
+        ul li
+          padding: 32px 30px 36px 30px
+      .endorsement
+        ul li
+          padding: 30px
+          background: #F6F6F6
+    .policy-optional-extra
+      margin-top: 144px
+    .enhance-excess-cover
+      margin-top: 111px
+      margin-bottom: 100px
+
+.policy-cancel
+  .page-content
+    padding-bottom: 82px
+    .date-box
+      .q-input-target
+        color: #2b7dbf
+        font-size: 32px
+        height: 43px
+        line-height: 43px
+      .q-if .q-icon
+        visibility: hidden
+      .icon-box
+        position: absolute
+        right: 0
+        bottom: 12px
+        z-index: 0
+    .policy-info
+      .row
+        margin-top: 14px
+    .reason-box
+      margin-top: 100px
+    .policy-note
+      margin-top: 72px
+    .policy-total-pay
+      margin-top: 68px
+.documents
+  .detail-box
+    padding: 67px 30px
+    border-bottom: 1px solid #F6F6F6
+.account
+  .page-content
+    padding-bottom: 100px
+    .main-info
+      padding-right: 50px
+.email
+  //width: 664px
+  //margin: 0 auto
+  padding: 47px 50px
+  background-color: #FFFFFF
+  .email-content
+    padding-bottom: 75px
+    border-bottom: 1px solid #EAEAEA
+    .item-title-box
+      margin-top: 50px
+      padding-bottom: 7px
+      border-bottom: 1px solid #EAEAEA
+
+a
+  color: $color-standard
+  font-size: 18px
+  font-weight: 300
+  line-height: 24px
+
+
+ul li:nth-child(odd)
+  background-color: #F6F6F6
+
+
+input.q-input-target
+  color: $color-standard
+  font-size: 32px
+  height: 43px
+  line-height: 43px
+
+
+.page-content
+  margin-top: 0px
+
+.page-title-main, .page-title-other
+  font-family: Lato;
+  color: #2B7DBF
+  font-weight: bold
+  line-height: 56px
+.page-title-main
+  font-size: 44px
+.page-title-other
+  font-size: 32px
+.page-title-sub
+  color: #2E2E2E
+  font-size: 24px
+  font-weight: 300
+  line-height: 36px
+
+.quotes, .policies, .policy-cancel, .claims, .account, .modal
+.policy-change, .email
+  .btn-round-first, .btn-round-second
+    height: 55px
+    padding-left: 24px
+    padding-right: 26px
+    .q-btn-inner
+      font-size: 20px
+.policies
+  .page-content
+    .policy-summary, .document-summary
+      .item-box-text-first
+        color: #CADEEF
+      .item-box-text-third
+        color: #FFFFFF
+.policies, .documents
+  .page-content
+    .selected
+      .item-box-first
+        background-color: $color-standard
+        .item-box-text-first, .item-box-text-third
+          color: #FFFFFF
+      .action-box, .detail-box
+        display: flex
+.policy-cancel, .account, .policy-change
+  .action-btn-box
+    padding-top: 25px
+    border-top: 1px solid #EAEAEA
+    .q-btn
+      margin-top: 24px
+
+.modal
+  text-align: center
+
+.modal .btn-round-second
+  height: 45px
+
+.margin-top-10
+  margin-top: 10px
+
+.item-box-first
+  padding: 24px 30px 25px 30px
+  .item
+    padding: 2vh 1vw
+.item-box-second
+  padding: 23px 30px 24px 30px
+.item-box-text-first
+  line-height: 19px
+  font-size: 14px
+  font-weight: 300
+  color: #969696
+  letter-spacing: -0.27px
+.item-box-text-second, .item-box-text-third, .item-box-text-fourth
+  font-weight: 300
+  color: #3F4444
+.item-box-text-second
+  font-size: 18px
+  letter-spacing: -0.35px
+  line-height: 24px
+.item-box-text-third
+  font-size: 24px
+  letter-spacing: -0.47px
+  line-height: 33px
+.item-box-text-fourth
+  font-size: 20px
+  letter-spacing: -0.39px
+  line-height: 36px
+.item-box-text-fifth
+  font-size: 26px
+  line-height: 36px
+
+
+.btn-download
+  width: 40px !important
+  height: 40px !important
+  padding inherit !important
+
+
+.margin-top-22
+  margin-top: 22px
+.margin-top-60
+  margin-top: 60px
+
+
+@media screen and (max-width: 992px)
+  .account
+    .page-content
+      .main-info
+        padding-right: 0
+      .contact-info
+        margin-top: 78px
+@media screen and (max-width: 1200px)
+  .quotes
+    .q-btn
+      margin-top: 30px
+@media screen and (max-width: 576px)
+  .policies
+    .page-content .action-box .action-btn-wrapper-box
+      margin-right: 0
+
+@media screen and (max-width: 1200px)
+  .item-btn
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+
+
+.dashboard
+  .dashboard-content
+    .policy-detail
+      @media screen and (min-width 1373px)
+        width: 100%
+      @media screen and (min-width: 1200px) and (max-width: 1372px)
+        display: inline-block
+      @media screen and (max-width: 1200px)
+        width: 100%
+
+@media screen and (max-width: 576px)
+  .dashboard
+    .dashboard-content
+      .btn-broken-down, .btn-make-change, .btn-buy, .btn-claims-box, .btn-new-quote-box, .mobile-hide-view
+        display: none
+      .btn-make-change-mobile
+        width: 70px
+        .q-btn-inner
+          font-size: 13px
+      
+@media screen and (min-width: 576px)
+  .dashboard
+    .dashboard-content
+      .btn-make-change-mobile
+        display:none
+        
+
+@media (min-width 1200px) and (max-width 1400px)
+  .policies .page-content .other
+    .history, .document
+      width: 100%
+
+@media screen and (min-width 1372px) and (max-width: 1541px)
+  .btn-broken-down
+    margin-top: 5px
+  .btn-new-quote
+    margin-top: 22px
+    margin-bottom: 21px
+  .dashboard .dashboard-content .document-content .item-row-box
+    padding-top: 25px
+    padding-bottom: 25px
+  .dashboard .dashboard-content .all-documents-box
+    padding-bottom: 52px !important
+@media screen and (min-width 1200px) and (max-width 1373px)
+  .btn-broken-down
+    margin-top: 5px
+  .btn-make-change
+    margin-top: 5px
+  .dashboard .dashboard-content .content-item .content-item-box .renewal-date
+    padding-top: 22px
+    padding-bottom: 22px
+  .btn-new-quote
+    margin-top: 25px
+    margin-bottom: 25px
+  .dashboard .dashboard-content .document-content .item-row-box
+    padding-top: 12px
+    padding-bottom: 12px
+  .dashboard .dashboard-content .all-documents-box
+    padding-top: 26px !important
+    padding-bottom: 24px !important
+@media screen and (max-width 1199px)
+  .btn-change-group
+    width: 100%
+@media screen and (max-width 1399px)
+  .payment-summary
+    margin-top: 50px
+@media screen and (min-width 1200px) and (max-width 1399px)
+  .policy-change .page-content .policy-change-grid
+    width: 100%
+@media screen and (max-width 768px)
+  .dashboard .dashboard-content .content-item-box
+    padding: 0 !important
+  .dashboard .dashboard-content .content-item
+    padding-right: 0
+  .dashboard .wavy-line
+    display: none
+  .dashboard
+    .dashboard-message
+      padding: 20px 0 30px 0
+    .main-message
+      font-size: 34px
+      padding-left: 3vw
+    .sub-message
+      display: none
+    .sub-message.hidden-message
+      display: block
+      margin: 0
+      color: #2E2E2E
+      font-size: 20px
+    .dashboard-content
+      padding-top: 7vh
+@media screen and (max-width 575px)
+  .policies .page-content .hide-item
+    display: none
+@media screen and (min-width 768px)
+  .email
+    max-width: 664px
+    margin: 0 auto
+@media screen and (max-width 400px)
+  .email .email-content .detail-box ul li p
+    width: 100%
+    //background: #000000
+  .email .email-content .benefit-box .option-item p
+    padding-left: 6vw
+//mobile responsive part
+@media screen and (max-width 575px)
+  .fs20
+    font-size: 20px
+  .fs25
+    font-size: 25px
+  .mt20
+    margin-top: -30px
+  .mt40
+    margin-top: -60px
+  .ibfpd0
+    padding: 0px
+  .mobile-font-size-13
+    font-size: 13px
+  .mobile-res-btn-height35
+    height: 35px!important

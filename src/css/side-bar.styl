@@ -1,0 +1,115 @@
+@import '~variables'
+
+.side-bar-content
+  height: 100%
+  .side-quote
+    height: 100%
+    background-color: #2873AF
+    .bg-img-box
+      position: relative
+      background: url('~assets/img/bg-sidebar.jpg')
+      background-repeat: no-repeat
+      background-size: cover
+      .logo-box
+        height 150px
+        background-color: $color-standard
+        opacity: 0.98
+        border-bottom: 1px solid #408FD0
+      .status-box
+        background-color: rgba(33, 90, 136, 0.73)
+        .status-bar-box
+          .status-bar
+            width 1px
+            opacity 0.5
+            background-color #408FD0
+            margin-left 25px
+          .status-bar-start
+            height 304px
+          .status-bar-interval
+            height 50px
+          .status-bar-end
+            height 354px
+          .status-bar.completed
+            width 5px
+            background-color $color-standard
+            opacity inherit
+            margin-left 22.5px
+          .status-mark-box
+            width 50px
+            height 50px
+            border-radius 50%
+            border 2px solid #408FD0
+            background-color #153F61
+            .mark-number
+              color $color-standard
+              font-size 24px
+              font-weight bold
+          .status-mark-box.selected
+            border 2px solid $white
+            background-color $white
+          .status-mark-box.completed
+            border none
+            background-color $color-standard
+          .status-label
+            margin-left 10px
+            color: $color-standard
+            font-size 24px
+          .status-label.completed, .status-label.selected
+            color $white
+  .side-policy
+    height: 100%
+    background-color: #F6F6F6
+    .bg-img-box
+      .status-box
+        .status-bar-box
+          .status-bar
+            width 1px
+            opacity 0.5
+            background-color #408FD0
+            margin-left 25px
+          .status-bar-start
+            height 73px
+          .status-bar-interval
+            height 50px
+          .status-bar-end
+            height 354px
+            background-color: transparent
+          .status-bar.completed
+            width 5px
+            background-color $color-standard
+            opacity inherit
+            margin-left 22.5px
+          .status-mark-box
+            width 50px
+            height 50px
+            border-radius 50%
+            background-color: #CADEEF
+            .mark-number
+              color $white
+              font-size 24px
+              font-weight bold
+              line-height: 33px
+          .status-mark-box.selected, .status-mark-box.completed
+            border none
+            background-color $color-standard
+          .status-label
+            margin-left 10px
+            color: #95BEDF
+            font-size 24px
+            line-height: 33px
+          .status-label.completed, .status-label.selected
+            color: #2B7DBF
+  .estimated-time-box
+    height 100px
+    .description
+      color #95BEDF
+      font-size 16px
+      font-weight bold
+      padding 3px 3px 3px 6px
+      text-align center
+  .margin-top-50
+    margin-top 50px
+
+@media screen and (max-width: 992px)
+  .side-bar
+    display: none

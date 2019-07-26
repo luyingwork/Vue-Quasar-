@@ -1,0 +1,1527 @@
+{
+    "referalSource": {
+      "definedListDetailId": 8062,
+      "definedListId": 26,
+      "name": "Foxy Lady",
+      "instepCode": "",
+      "enumLiteral": "",
+      "uniqueId": "ReferralSource.Foxy Lady"
+    },
+    "userSpecifiedNumberOfDrivers": {
+      "definedListDetailId": 5749,
+      "definedListId": 59,
+      "name": "Proposer only",
+      "instepCode": "1",
+      "enumLiteral": "",
+      "uniqueId": "UserSpecifiedNumberOfDrivers.ProposerOnly"
+    },
+    "caravanUseage": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "levelOfCover": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "europeanCover": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "lossOfUseCover": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "personalAccidentCover": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "publicLiabilityCover": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "noClaimsProtection": true,
+    "carsInHousehold": 2,
+    "valuationCertificateRequired": true,
+    "proposer": {
+      "passPlusDate": "2019-02-19T10:11:07.602Z",
+      "livedAtHomeAddressSinceDate": "1980-02-18T10:48:45.466Z",
+      "numberOfChildren": 0,
+      "hadPreviousInsurance": true,
+      "address": {
+        "flatHouseNumber": "string",
+        "addressLine1": "string",
+        "addressLine2": "string",
+        "addressLine3": "string",
+        "addressLine4": "string",
+        "postCode": "AB12 4XP",
+        "region": "string",
+        "city": "string",
+        "country": "string"
+      },
+      "introductoryNoClaimsBonus": 0,
+      "haveNoClaimsOnOtherVehicle": true,
+      "homeOwner": true,
+      "isOwnersClubMember": true,
+      "ownersClub": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "ownersClubName": "string",
+      "hasCcjs": false,
+      "numberOfOtherVehiclesAvailable": {
+        "definedListDetailId": 2981,
+        "definedListId": 10,
+        "name": "Proposer only",
+        "instepCode": "1",
+        "enumLiteral": "string",
+        "uniqueId": "NumberOfDriversType.ProposerOnly"
+      },
+      "hasAdditionalDrivers": false,
+      "passedAdvancedDrivingCourse": true,
+      "hasAccessToAnotherVehicle": true,
+      "claimsFreeExperienceOnOtherVehicle": 5,
+      "policyholderType": {
+        "definedListDetailId": 8745,
+        "definedListId": 131,
+        "name": "Private",
+        "instepCode": "P",
+        "enumLiteral": "string",
+        "uniqueId": "PolicyholderTypes.Private"
+      },
+      "isMemberOfMotoringClub": true,
+      "previousInsuranceStatus": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "isMemberOfUnite": true,
+      "isSubscribedToMagazine": true,
+      "hasMotoringMagazineSubscription": true,
+      "motoringMagazineSubscription": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "residenceHasAlarm": true,
+      "specialistNumberOfVehicles": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "membershipNumber": "string",
+      "yearsTowingExperience": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "manoeuvringCourse": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "hasHGVLicense": true,
+      "promoCode": "string",
+      "requiresSecondaryPolicyHolder": true,
+      "secondaryProposerTitle": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "secondaryProposerFirstName": "string",
+      "secondaryProposerSurname": "string",
+      "secondaryProposerDateOfBirth": "2019-02-19T10:11:07.603Z",
+      "contactPreference": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "useOfAnotherCar": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "areYouAFullTimer": true,
+      "previousInsuranceDetails": {
+        "insurerInstepCode": "string",
+        "insurerName": "string",
+        "policyNumber": "string",
+        "policyExpirationDate": "2019-02-22T16:09:42.681Z"
+      },
+      "personUniqueID": 0,
+      "title": {
+        "definedListDetailId": 1,
+        "definedListId": 1,
+        "name": "Mr",
+        "instepCode": "003",
+        "enumLiteral": "string",
+        "uniqueId": "Title.Mr"
+      },
+      "firstName": "string",
+      "lastName": "string",
+      "gender": {
+        "definedListDetailId": 6,
+        "definedListId": 2,
+        "name": "Male",
+        "instepCode": "M",
+        "enumLiteral": "string",
+        "uniqueId": "Gender.Male"
+      },
+      "licenceType": {
+        "definedListDetailId": 55,
+        "definedListId": 5,
+        "name": "Full UK Car Licence",
+        "instepCode": "F",
+        "enumLiteral": "string",
+        "uniqueId": "CarLicenceTypes.FullUKCarLicence"
+      },
+      "licenceDate": "2000-02-18T10:48:45.466Z",
+      "dateOfBirth": "2000-02-18T10:48:45.466Z",
+      "ukResidentFromBirth": true,
+      "ukResidentFromDate": "1980-02-18T10:48:45.466Z",
+      "primaryEmploymentStatus": {
+        "definedListDetailId": 41,
+        "definedListId": 4,
+        "name": "Employed",
+        "instepCode": "E",
+        "enumLiteral": "string",
+        "uniqueId": "EmploymentStatus.Employed"
+      },
+      "primaryOccupation": {
+        "definedListDetailId": 71,
+        "definedListId": 6,
+        "name": "Abattoir Worker",
+        "instepCode": "1",
+        "enumLiteral": "string",
+        "uniqueId": "Occupation.AbattoirWorker"
+      },
+      "primaryBusinessCategory": {
+        "definedListDetailId": 1821,
+        "definedListId": 7,
+        "name": "Abattoir",
+        "instepCode": "188",
+        "enumLiteral": "BusinessCategory.Abattoir",
+        "uniqueId": "string"
+      },
+      "maritalStatus": {
+        "definedListDetailId": 38,
+        "definedListId": 3,
+        "name": "Single",
+        "instepCode": "S",
+        "enumLiteral": "string",
+        "uniqueId": "MaritalStatus.Single"
+      },
+      "numberOfVehiclesHasAccessTo": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "hasClaims": false,
+      "hasConvictions": false,
+      "hasMedicalConditions": false,
+      "hasSecondaryEmployment": false,
+      "secondaryEmploymentStatus": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "secondaryOccupation": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "secondaryBusinessCategory": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "isMemberOfIam": true,
+      "hadInsuranceRefused": false,
+      "hadSpecialConditionsImposed": true,
+      "registeredDisabled": false,
+      "hasInformedDVLAOfMedicalConditionsAndDisabilities": true,
+      "hasCriminalConvictions": false,
+      "hasRestrictedLicense": false,
+      "natureOfRestrictedLicense": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "prn": 0,
+      "numberOfVehiclesDriven": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "otherVehiclesOwned": true,
+      "companyCarUsageType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "companyCarUsageCeasedDate": "2019-02-19T10:11:07.603Z",
+      "hasAdvancedDrivingLicense": false,
+      "advancedDrivingLicenseType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "hasHadPreviousPolicyCancelled": false,
+      "hasHadPreviousPolicyPremiumIncreases": false,
+      "smoker": false,
+      "disabledBadgeHolder": false,
+      "drivingFrequency": {
+        "definedListDetailId": 8811,
+        "definedListId": 135,
+        "name": "Main",
+        "instepCode": "M",
+        "enumLiteral": "string",
+        "uniqueId": "DrivingFrequency.Main"
+      },
+      "classOfUse": {
+        "definedListDetailId": 2986,
+        "definedListId": 11,
+        "name": "Social, Domestic And Pleasure",
+        "instepCode": "04",
+        "enumLiteral": "SDPOnly",
+        "uniqueId": "CarClassOfUse.SocialDomesticAndPleasure"
+      },
+      "driverDrinksAlcohol": true,
+      "driverHasOwnCreditCard": true,
+      "licenceCountryOfIssue": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "licenceNumber": "string",
+      "claims": [
+        {
+          "claimID": 0,
+          "claimDate": "2019-02-19T10:11:07.604Z",
+          "faultClaim": true,
+          "approximateCost": 0,
+          "anyPersonalInjury": true,
+          "claimType": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "claimStatus": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "ncbLost": true,
+          "yearsSinceClaimDate": 0,
+          "yearsSinceClaimDateAsInt": 0,
+          "monthsSinceAsInt": 0
+        }
+      ],
+      "convictions": [
+        {
+          "convictionCode": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "personsInjured": true,
+          "disqualificationMonths": 0,
+          "fine": 0,
+          "pointsReceived": 0,
+          "convictionDate": "2019-02-19T10:11:07.605Z",
+          "convictionTestMethod": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "testReading": 0,
+          "yearsSinceConvictionDate": 0,
+          "monthsSinceAsInt": 0,
+          "monthsSinceConvictionDate": 0
+        }
+      ],
+      "medicalConditions": [
+        {
+          "medicalCondition": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "reportedToDvla": true
+        }
+      ],
+      "rehabCourse": true,
+      "noClaimsBonus": 0,
+      "ncbEntitlementType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "riskEffectiveDate": "2019-02-18T10:48:45.468Z",
+      "fullName": "string",
+      "monthsSinceLicenceHeld": 0,
+      "yearsSinceLicenceHeld": 0,
+      "monthsOfResidencyInUk": 0,
+      "yearsOfResidenceyInUk": 0
+    },
+    "previousInsuranceDetail": {
+      "insurerInstepCode": "string",
+      "insurerName": "string",
+      "policyNumber": "string",
+      "policyExpirationDate": "2019-02-20T14:24:45.229Z"
+    },
+    "mainDriver": {
+      "personUniqueID": 0,
+      "title": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "firstName": "string",
+      "lastName": "string",
+      "gender": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "licenceType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "licenceDate": "2019-02-19T10:11:07.605Z",
+      "dateOfBirth": "2019-02-19T10:11:07.605Z",
+      "ukResidentFromBirth": true,
+      "ukResidentFromDate": "2019-02-19T10:11:07.605Z",
+      "primaryEmploymentStatus": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "primaryOccupation": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "primaryBusinessCategory": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "maritalStatus": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "numberOfVehiclesHasAccessTo": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "hasClaims": true,
+      "hasConvictions": true,
+      "hasMedicalConditions": true,
+      "hasSecondaryEmployment": true,
+      "secondaryEmploymentStatus": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "secondaryOccupation": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "secondaryBusinessCategory": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "isMemberOfIam": true,
+      "hadInsuranceRefused": true,
+      "hadSpecialConditionsImposed": true,
+      "registeredDisabled": true,
+      "hasInformedDVLAOfMedicalConditionsAndDisabilities": true,
+      "hasCriminalConvictions": true,
+      "hasRestrictedLicense": true,
+      "hasHGVLicense": true,
+      "natureOfRestrictedLicense": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "prn": 0,
+      "numberOfVehiclesDriven": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "otherVehiclesOwned": true,
+      "companyCarUsageType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "companyCarUsageCeasedDate": "2019-02-19T10:11:07.605Z",
+      "hasAdvancedDrivingLicense": true,
+      "advancedDrivingLicenseType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "hasHadPreviousPolicyCancelled": true,
+      "hasHadPreviousPolicyPremiumIncreases": true,
+      "smoker": true,
+      "disabledBadgeHolder": true,
+      "drivingFrequency": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "classOfUse": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "driverDrinksAlcohol": true,
+      "driverHasOwnCreditCard": true,
+      "licenceCountryOfIssue": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "licenceNumber": "string",
+      "claims": [
+        {
+          "claimID": 0,
+          "claimDate": "2019-02-19T10:11:07.606Z",
+          "faultClaim": true,
+          "approximateCost": 0,
+          "anyPersonalInjury": true,
+          "claimType": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "claimStatus": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "ncbLost": true,
+          "yearsSinceClaimDate": 0,
+          "yearsSinceClaimDateAsInt": 0,
+          "monthsSinceAsInt": 0
+        }
+      ],
+      "convictions": [
+        {
+          "convictionCode": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "personsInjured": true,
+          "disqualificationMonths": 0,
+          "fine": 0,
+          "pointsReceived": 0,
+          "convictionDate": "2019-02-19T10:11:07.606Z",
+          "convictionTestMethod": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "testReading": 0,
+          "yearsSinceConvictionDate": 0,
+          "monthsSinceAsInt": 0,
+          "monthsSinceConvictionDate": 0
+        }
+      ],
+      "medicalConditions": [
+        {
+          "medicalCondition": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "reportedToDvla": true
+        }
+      ],
+      "rehabCourse": true,
+      "noClaimsBonus": 0,
+      "ncbEntitlementType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "riskEffectiveDate": "2019-02-19T10:11:07.607Z",
+      "specialistNumberOfVehicles": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "fullName": "string",
+      "monthsSinceLicenceHeld": 0,
+      "yearsSinceLicenceHeld": 0,
+      "monthsOfResidencyInUk": 0,
+      "yearsOfResidenceyInUk": 0
+    },
+    "vehicle": {
+      "insuredEntityUniqueID": 0,
+      "abiCode": "52069401",
+      "abI_Code": "52069401",
+      "carId": 139857,
+      "registrationNumber": "string",
+      "purchaseDate": "2019-02-18T10:48:45.470Z",
+      "noOfSeats": 5,
+      "leftHandDrive": false,
+      "overnightParkLocation": {
+        "definedListDetailId": 3423,
+        "definedListId": 25,
+        "name": "Garaged (Steel)",
+        "instepCode": "1",
+        "enumLiteral": "string",
+        "uniqueId": "OvernightParkLocation.LockedGaragedSteel"
+      },
+      "businessMileage": 0,
+      "annualMileage": 5000,
+      "currentMileage": 5000,
+      "qPlated": false,
+      "imported": false,
+      "registeredKeeper": {
+        "definedListDetailId": 3021,
+        "definedListId": 13,
+        "name": "Proposer/Policyholder",
+        "instepCode": "1",
+        "enumLiteral": "string",
+        "uniqueId": "RegisteredKeeper.ProposerPolicyholder"
+      },
+      "registeredOwner": {
+        "definedListDetailId": 3021,
+        "definedListId": 13,
+        "name": "Proposer/Policyholder",
+        "instepCode": "1",
+        "enumLiteral": "string",
+        "uniqueId": "RegisteredKeeper.ProposerPolicyholder"
+      },
+      "value": 5000,
+      "totalValueOfModifications": 0,
+      "yearOfManufacture": 2016,
+      "transmission": {
+        "definedListDetailId": 3420,
+        "definedListId": 24,
+        "name": "Manual",
+        "instepCode": "002",
+        "enumLiteral": "Manual",
+        "uniqueId": "VehicleTransmission.Manual"
+      },
+      "keptAtHomeAddress": true,
+      "isModified": false,
+      "hasSecurityDevices": false,
+      "motorhomeType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "lhdOwnedWithoutIncident": true,
+      "chassisNumber": "string",
+      "diyHandledProfessionally": true,
+      "cubicCapacity": 2300,
+      "mileageRecordedDate": "2019-02-18T10:48:45.470Z",
+      "alarmType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "trackerType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "unknownCarModel": "string",
+      "unknownMake": "string",
+      "unknownModel": "string",
+      "unknownConversion": "string",
+      "address": {
+        "flatHouseNumber": "string",
+        "addressLine1": "string",
+        "addressLine2": "string",
+        "addressLine3": "string",
+        "addressLine4": "string",
+        "postCode": "ab12 4xp",
+        "region": "string",
+        "city": "string",
+        "country": "string"
+      },
+      "conversionCompleted": true,
+      "alarmModel": "string",
+      "trackerModel": "string",
+      "bodyType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "unknownBodyType": "string",
+      "isOnLoan": true,
+      "hasAgreedValue": true,
+      "dvlaModificationsCarriedOut": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "agreedValueRequested": true,
+      "agreedValueAccepted": true,
+      "keptInMuseum": true,
+      "isPrimaryMeansOfTransport": true,
+      "purchasePrice": 3500,
+      "isVehicleRegisteredInUK": true,
+      "isVehicleKeptOutsideUK": false,
+      "vehicleType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "commercialVehicleVehicleType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "isUsedForPrivateHire": true,
+      "unknownVariant": "string",
+      "isUnlistedVehicle": true,
+      "over24FeetLong": true,
+      "alarmInstalledBy": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "trackerInstalledBy": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "leasePeriodMonths": 0,
+      "fuelType": {
+        "definedListDetailId": 3414,
+        "definedListId": 23,
+        "name": "Diesel",
+        "instepCode": "001",
+        "enumLiteral": "Diesel",
+        "uniqueId": "FuelType.Diesel"
+      },
+      "vehicleColour": "Orange",
+      "tracker": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "alarm": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "prn": 0,
+      "vehicleFirstRegisteredDate": "2019-02-18T10:48:45.471Z",
+      "isCassoaStorageApproved": true,
+      "vehicleHasParkingSensors": true,
+      "contentsValue": 0,
+      "numberOfBerths": 0,
+      "awningValue": 0,
+      "equipmentValue": 0,
+      "caravanType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "ownedSinceNew": true,
+      "alarmFitted": false,
+      "caravanPermanentlySited": true,
+      "caravanMake": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "caravanModel": "string",
+      "crisOrSerialNumber": "string",
+      "vehicleServicedInPast12Months": true,
+      "garageHasAlarm": true,
+      "lockedGateLeadingToDriveway": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "modifications": [
+        {
+          "modification": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "isStandardFitment": true,
+          "isForMedicalCondition": true
+        }
+      ],
+      "securityDevices": [
+        {
+          "securityDevice": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "fittedBy": {
+            "definedListDetailId": 0,
+            "definedListId": 0,
+            "name": "string",
+            "instepCode": "string",
+            "enumLiteral": "string",
+            "uniqueId": "string"
+          },
+          "fittedDate": "2019-02-19T10:11:07.607Z"
+        }
+      ],
+      "safetyDevices": [
+        {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        }
+      ],
+      "storageDevices": [
+        {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        }
+      ],
+      "vehicleImportType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "vehicleTonnage": 2,
+      "vehicleEngineType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "cRiSChipKnown": true,
+      "caravanReplacementValue": 0,
+      "presentValue": 0,
+      "agreedValue": 0,
+      "secondaryStorageAddress": {
+        "flatHouseNumber": "string",
+        "addressLine1": "string",
+        "addressLine2": "string",
+        "addressLine3": "string",
+        "addressLine4": "string",
+        "postCode": "string",
+        "region": "string",
+        "city": "string",
+        "country": "string"
+      },
+      "yearsSinceLastService": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "brakeHorsePower": 666,
+      "makeOfBaseVehicle": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "cassoaStorage": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "estimatedAnnualMileage": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "satelliteTVEquipmentCover": true,
+      "satNavCover": true,
+      "tvEquiupmentValue": 0,
+      "navigationEquipmentValue": 0,
+      "vehicleDescription": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "isFordBased": true,
+      "signage": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      },
+      "newGroup": 0,
+      "ageInYears": 0,
+      "lengthOfOwnershipInMonths": 0,
+      "lengthOfOwnershipInYears": 0,
+      "vehicleRegisteredAgeInMonths": 0,
+      "vehicleRegisteredAgeInYears": 0,
+      "ageInYearsFromRegistrationDate": 0
+    },
+    "additionalDrivers": [
+      {
+        "relationshipToPolicyHolder": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "isTemporaryDriver": true,
+        "temporaryCoverEffectiveDate": "2019-02-19T10:11:07.607Z",
+        "temporaryCoverEndDate": "2019-02-19T10:11:07.607Z",
+        "tempDriverRemovedFromPolicy": true,
+        "personUniqueID": 0,
+        "title": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "firstName": "string",
+        "lastName": "string",
+        "gender": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "licenceType": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "licenceDate": "2019-02-19T10:11:07.608Z",
+        "dateOfBirth": "2019-02-19T10:11:07.608Z",
+        "ukResidentFromBirth": true,
+        "ukResidentFromDate": "2019-02-19T10:11:07.608Z",
+        "primaryEmploymentStatus": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "primaryOccupation": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "primaryBusinessCategory": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "maritalStatus": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "numberOfVehiclesHasAccessTo": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "hasClaims": true,
+        "hasConvictions": true,
+        "hasMedicalConditions": true,
+        "hasSecondaryEmployment": true,
+        "secondaryEmploymentStatus": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "secondaryOccupation": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "secondaryBusinessCategory": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "isMemberOfIam": true,
+        "hadInsuranceRefused": true,
+        "hadSpecialConditionsImposed": true,
+        "registeredDisabled": true,
+        "hasInformedDVLAOfMedicalConditionsAndDisabilities": true,
+        "hasCriminalConvictions": true,
+        "hasRestrictedLicense": true,
+        "hasHGVLicense": true,
+        "natureOfRestrictedLicense": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "prn": 0,
+        "numberOfVehiclesDriven": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "otherVehiclesOwned": true,
+        "companyCarUsageType": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "companyCarUsageCeasedDate": "2019-02-19T10:11:07.608Z",
+        "hasAdvancedDrivingLicense": true,
+        "advancedDrivingLicenseType": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "hasHadPreviousPolicyCancelled": true,
+        "hasHadPreviousPolicyPremiumIncreases": true,
+        "smoker": true,
+        "disabledBadgeHolder": true,
+        "drivingFrequency": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "classOfUse": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "driverDrinksAlcohol": true,
+        "driverHasOwnCreditCard": true,
+        "licenceCountryOfIssue": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "licenceNumber": "string",
+        "claims": [
+          {
+            "claimID": 0,
+            "claimDate": "2019-02-19T10:11:07.609Z",
+            "faultClaim": true,
+            "approximateCost": 0,
+            "anyPersonalInjury": true,
+            "claimType": {
+              "definedListDetailId": 0,
+              "definedListId": 0,
+              "name": "string",
+              "instepCode": "string",
+              "enumLiteral": "string",
+              "uniqueId": "string"
+            },
+            "claimStatus": {
+              "definedListDetailId": 0,
+              "definedListId": 0,
+              "name": "string",
+              "instepCode": "string",
+              "enumLiteral": "string",
+              "uniqueId": "string"
+            },
+            "ncbLost": true,
+            "yearsSinceClaimDate": 0,
+            "yearsSinceClaimDateAsInt": 0,
+            "monthsSinceAsInt": 0
+          }
+        ],
+        "convictions": [
+          {
+            "convictionCode": {
+              "definedListDetailId": 0,
+              "definedListId": 0,
+              "name": "string",
+              "instepCode": "string",
+              "enumLiteral": "string",
+              "uniqueId": "string"
+            },
+            "personsInjured": true,
+            "disqualificationMonths": 0,
+            "fine": 0,
+            "pointsReceived": 0,
+            "convictionDate": "2019-02-19T10:11:07.610Z",
+            "convictionTestMethod": {
+              "definedListDetailId": 0,
+              "definedListId": 0,
+              "name": "string",
+              "instepCode": "string",
+              "enumLiteral": "string",
+              "uniqueId": "string"
+            },
+            "testReading": 0,
+            "yearsSinceConvictionDate": 0,
+            "monthsSinceAsInt": 0,
+            "monthsSinceConvictionDate": 0
+          }
+        ],
+        "medicalConditions": [
+          {
+            "medicalCondition": {
+              "definedListDetailId": 0,
+              "definedListId": 0,
+              "name": "string",
+              "instepCode": "string",
+              "enumLiteral": "string",
+              "uniqueId": "string"
+            },
+            "reportedToDvla": true
+          }
+        ],
+        "rehabCourse": true,
+        "noClaimsBonus": 0,
+        "ncbEntitlementType": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "riskEffectiveDate": "2019-02-19T10:11:07.610Z",
+        "specialistNumberOfVehicles": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        },
+        "fullName": "string",
+        "monthsSinceLicenceHeld": 0,
+        "yearsSinceLicenceHeld": 0,
+        "monthsOfResidencyInUk": 0,
+        "yearsOfResidenceyInUk": 0
+      }
+    ],
+    "aggregatorClientId": "string",
+    "riskAddress": {
+      "flatHouseNumber": "string",
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "addressLine3": "string",
+      "addressLine4": "string",
+      "postCode": "ab12 4xp",
+      "region": "string",
+      "city": "string",
+      "country": "string"
+    },
+    "riskID": 0,
+    "isDataLoadRisk": false,
+    "productUniqueID": "ModernCar",
+    "coverType": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "classOfUse": {
+      "definedListDetailId": 2986,
+      "definedListId": 11,
+      "name": "Social, Domestic And Pleasure",
+      "instepCode": "04",
+      "enumLiteral": "SDPOnly",
+      "uniqueId": "CarClassOfUse.SocialDomesticAndPleasure"
+    },
+    "voluntaryExcess": {
+      "definedListDetailId": 2989,
+      "definedListId": 12,
+      "name": "100",
+      "instepCode": "100",
+      "enumLiteral": "_100",
+      "uniqueId": "VolXs.100"
+    },
+    "effectiveDate": "2019-02-20T14:24:45.239Z",
+    "allowPublicDataSearch": true,
+    "allowPrivateDataSearch": true,
+    "businessLead": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "security": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "dataSourceLead": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "businessSourceID": 0,
+    "quoteVariantID": 0,
+    "agentCompanyID": 0,
+    "productVariant": {
+      "name": "string",
+      "productVariantID": 0,
+      "uniqueID": "string",
+      "productVariantCode": "string"
+    },
+    "dwellingType": {
+      "definedListDetailId": 6691,
+      "definedListId": 94,
+      "name": "House/Bungalow",
+      "instepCode": "01",
+      "enumLiteral": "string",
+      "uniqueId": "TypeOfDwelling.House/Bungalow"
+    },
+    "isQuickQuote": false,
+    "usuallyPaysMonthly": true,
+    "customerInfo": {
+      "homePhone": "string",
+      "workPhone": "string",
+      "mobilePhone": "string",
+      "emailAddress": "string",
+      "customerProhibitsContact": true,
+      "dwellingType": {
+        "definedListDetailId": 0,
+        "definedListId": 0,
+        "name": "string",
+        "instepCode": "string",
+        "enumLiteral": "string",
+        "uniqueId": "string"
+      }
+    },
+    "overNightStorage": {
+      "definedListDetailId": 0,
+      "definedListId": 0,
+      "name": "string",
+      "instepCode": "string",
+      "enumLiteral": "string",
+      "uniqueId": "string"
+    },
+    "selectedDefinedListDetails": [
+      {
+        "id": 0,
+        "riskID": 0,
+        "definedlistDetail": {
+          "definedListDetailId": 0,
+          "definedListId": 0,
+          "name": "string",
+          "instepCode": "string",
+          "enumLiteral": "string",
+          "uniqueId": "string"
+        }
+      }
+    ],
+    "productLoadingFlatRate": 0,
+    "productLoadingMultiplier": 0,
+    "petCoverRequirements": true,
+    "latestAnnualPremium": 0,
+    "riskPostcode": "ab124xp"
+  }

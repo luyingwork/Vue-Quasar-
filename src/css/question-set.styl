@@ -1,0 +1,251 @@
+@import '~variables'
+
+.question-set
+  .vehicle-details
+    margin-top 114px
+    margin-left: 10%
+    .car-reg-number-box
+      height: 80px
+      width: 344px
+      border: 1px solid #CBCBCB
+      border-radius: 5px
+      margin-top: 44px
+      .img-box
+        margin: -1px 0
+        width: 48px
+        background-color: #1C4EB4
+        padding: 10px 8px 9px 9px
+        border-top-left-radius: 5px
+        border-bottom-left-radius: 5px
+      .input-box
+        height: 61px
+        width: 283px
+        line-height: 57px
+        margin-top: 10px
+        margin-left: 10px
+      .q-input-target
+        height: 61px
+        line-height: 61px
+        font-size: 42px
+        color: $color-standard
+        text-align: center
+    .car-reg-number-text-only
+        display: none
+    .notify-tab-enter-box
+      margin-top:40px
+      img:first-child
+        margin-right: 10px
+    .mileage-box
+      margin-top: 116px
+    .owner-box, .keeper-box, .park-box
+      margin-top: 100px
+  .personal-details
+    margin-top:180px
+    margin-left:10%
+    .driving-license-number-box
+      margin-top: 80px
+      .card-box
+        margin-top: 44px
+        height: 310px
+        width: 498px
+        border: 1px solid #CBCBCB
+        border-radius: 15px
+        padding 35px 36px 22px 38px
+        .input-wrapper-box
+          margin-top:22px
+          padding-bottom: 3px
+      .driving-license-text-only
+          display: none
+    .preferred-title-box, .full-name-box, .email-box, .mobile-number-box, .birth-box,
+    .post-code-box, .claims-protect-box, .employment-status-box, .occupation-box,
+    .business-category-box, .confirm-box
+      margin-top: 100px
+    .birth-box
+      .q-btn
+        padding: 4px 16px
+        min-height: fit-content
+        text-transform: uppercase
+      .q-if
+        .q-icon
+          visibility: hidden
+    .icon-box
+      position: absolute
+      right: 10%
+      bottom: 12px
+      z-index: -9
+    .confirm-box
+      //.checkbox-wrapper
+      //  margin-top: 46px
+      //  .check-box-item
+      //    margin-top: 3px
+      //    p
+      //      margin-left 2%
+      //  .text-faded
+      //    color: #C6DFF1!important
+    .search-engine-box
+      margin: 100px 0
+      .additional-search-engine
+        margin-top 100px
+    .add-driver-box
+      margin-top 100px
+    .additional-driver-box
+      margin-top 180px
+  .cover-details
+    margin-top: 150px
+    margin-left:10%
+    .cover-kind-box
+      margin-top:86px
+    .arrange-class-box, .cover-start-date-box, .cover-start-time-box,
+    .voluntary-excess-box
+      margin-top: 100px
+
+  .input-wrapper-box
+    border-bottom: 1px solid $color-primary
+    .q-if:before, .q-if:after
+      border-bottom: none
+  .q-input-target
+    color: $color-standard
+    font-size: 32px
+    height: 43px
+    line-height: 43px
+
+  .text-box
+    height: 34px
+    color: $color-standard
+    font-size: 18px
+    font-weight: $font-weight-light
+    line-height: 34px
+    margin-bottom: 0px
+  .text-box-2
+    line-height: 36px;
+    color: $color-standard
+    font-size: 24px
+    font-weight: $font-weight-light;
+    margin-top: 122px
+    margin-bottom: 39px
+
+  .q-list
+    .q-item
+      padding:0 12px
+  .q-popover
+    overflow-y: scroll !important
+  .margin-top-90
+    margin-top: 90px
+
+  .top-check-box-align > .q-option-inner
+    margin-bottom: auto
+  .select-common.q-if-inverted .q-input-target
+    max-width: 80%;
+  
+@media (max-width: 700px)
+  .q-layout-page-container
+    max-width: 80%
+  .question-set
+    .vehicle-details
+      margin: auto
+      margin-top 114px
+      .car-reg-number-box
+        display: none
+      .car-reg-number-text-only
+        display: block
+    .personal-details
+      margin: auto
+      margin-top 114px
+      .driving-license-number-box
+        .card-box
+          display: none
+          .input-wrapper-box
+            display: none
+        .driving-license-text-only
+          display: block
+    .cover-details
+      margin: auto
+      margin-top: 150px
+  .select-common.q-if-inverted .q-input-target
+    max-width: 80%;
+
+@media (max-width: 582px)
+  .question-set .personal-details .icon-box
+    right: 15%
+  .select-common.q-if-inverted .q-input-target
+    max-width: 50%;
+  .question-set .q-input-target-placeholder
+    font-size: 12px;
+  .btn-toggle-standard
+    display: block !important
+    box-shadow: none
+    margin-right 10px
+    .q-btn
+      background-color: $color-primary
+      margin-top: 12px
+      .q-btn-inner
+        //height: 36px
+        line-height: 16px
+        color: $color-standard
+        font-size: 18px
+    .q-btn.text-white
+      .q-btn-inner
+        color: $white
+    .bg-primary
+      background-color: $color-standard !important
+
+@media (max-width: 500px)
+  .select-common.q-if-inverted .q-input-target
+    max-width: 40%;
+  .question-set .q-input-target-placeholder
+    font-size: 12px;
+  .btn-toggle-standard .q-btn
+    padding: 0px;
+    margin-right: 7px;
+    margin-bottom: 0px;
+    
+//mobile responsive part
+@media screen and (max-width 575px)
+  .fs15
+    font-size: 15px
+  .fs20
+    font-size: 20px
+  .fs25
+    font-size: 25px
+  .mt20
+    margin-top: -30px
+  .mt40
+    margin-top: -60px
+  .ibfpd0
+    padding: 0px
+  .vehicle-details
+    .q-input-target
+      font-size: 20px
+  .personal-details
+    .q-input-target
+      font-size: 20px
+  .cover-details
+    .q-input-target
+      font-size: 20px
+  .question-set 
+    .vehicle-details 
+      .mileage-box
+        margin-top: 38px
+  .q-if-standard
+    width: auto
+    padding-bottom: 0px
+  .select-common.q-if-inverted .q-input-target
+    font-size: 20px
+  .question-set .vehicle-details .owner-box, .question-set .vehicle-details .keeper-box, .question-set .vehicle-details .park-box
+    margin-top: 44px;
+  .question-set .margin-top-90
+    margin-top: 50px;
+  .question-set .personal-details
+    margin-top: 70px;
+  .question-set .personal-details .preferred-title-box, .question-set .personal-details .full-name-box, .question-set .personal-details .email-box, .question-set .personal-details .mobile-number-box, .question-set .personal-details .birth-box, .question-set .personal-details .post-code-box, .question-set .personal-details .claims-protect-box, .question-set .personal-details .employment-status-box, .question-set .personal-details .occupation-box, .question-set .personal-details .business-category-box, .question-set .personal-details .confirm-box
+    margin-top: 50px;
+  .btn-toggle-standard
+    margin-right: 0px
+  .q-layout-page-container
+    max-width: 100%
+    
+
+    
+
+  
+  

@@ -1,0 +1,617 @@
+@import '~variables'
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+// app global css
+html, body
+  font-family "Open Sans" !important
+p
+  margin: 0
+  //overflow-wrap: break-word
+ul
+  padding: 0
+  margin: 0
+li
+  list-style: none
+a
+  text-decoration: none
+
+
+//--- Overwrite Quasar Css Class ---//
+.gutter-x-lg, .gutter-lg
+  margin-left: 0
+.gutter-y-sm, .gutter-sm
+  margin-top: 0
+.q-btn
+  padding: 0
+  min-height: 0
+  text-transform none
+  box-shadow: none
+  border-radius 0
+.q-datetime
+  .q-btn
+    padding: 4px 16px
+    min-height: fit-content
+    text-transform: uppercase
+    .q-btn-inner
+      font-size: 14px
+      line-height: inherit
+  .q-datetime-btn.active
+    .q-btn-inner
+      font-size: 26px
+      line-height: 36px
+.q-list
+  border: none
+  padding: 0
+  .q-item
+    padding: 0 12px
+.q-checkbox-icon
+  height: 44px
+  width: 44px
+  font-size: 44px
+.q-if-standard
+  width: 80%
+  padding-bottom: 10px
+.btn-toggle-standard
+  display: block !important
+  box-shadow: none
+  margin-right 10px
+  .q-btn
+    background-color: $color-primary
+    padding: 12px 22px
+    margin-top: 12px
+    margin-right: 20px
+    margin-bottom: 12px
+    .q-btn-inner
+      //height: 36px
+      line-height: 36px
+      color: $color-standard
+      font-size: 26px
+  .q-btn.text-white
+    .q-btn-inner
+      color: $white
+  .bg-primary
+    background-color: $color-standard !important
+
+
+//--- General Helper Class ---//
+.container
+  width: 86%
+  margin 20px auto
+
+.clear-fix
+  clear: both
+  content: ""
+  display: table
+.underline
+  text-decoration: underline
+
+.margin-top-main
+  margin-top: 42px !important
+.margin-top-13
+  margin-top: 13px !important
+.margin-top-15
+  margin-top 15px !important
+.margin-top-24
+  margin-top: 24px !important
+.margin-top-30
+  margin-top: 30px !important
+.margin-top-41
+  margin-top 41px
+.margin-top-44
+  margin-top: 44px !important
+.margin-bottom-main
+  margin-bottom: 38px !important
+.margin-bottom-128
+  margin-bottom: 128px !important
+.margin-left-34
+  margin-left: 34px !important
+.margin-right-20
+  margin-right: 20px !important
+.margin-right-30
+  margin-right: 30px !important
+
+.padding-horizontal-main
+  padding-left: 10px !important
+  padding-right: 10px !important
+
+.align-left
+  text-align left !important
+.align-right
+  text-align: right !important
+.align-center
+  text-align center !important
+
+
+.input-wrapper-box
+  position relative
+  margin-top 15px
+  padding-bottom 5px
+  border-bottom 1px solid $color-primary
+
+.checkbox-wrapper
+  margin-top: 46px
+  .check-box-item
+    margin-top: 3px
+    p
+      //margin-left 2%
+      margin-left: 20px
+  .text-faded
+    color: #C6DFF1!important
+
+.img-icon-check-wrapper
+  width: 24px
+  height: 24px
+  background-color: $color-standard
+  border-radius: 50%
+  img
+    width: 50%
+.img-icon-feature-wrapper
+  width: 70px
+  height: 70px
+  border-radius: 50%
+.img-icon-feature-wrapper.feature-one
+  background-color: #DD8D09
+.img-icon-feature-wrapper.feature-two
+  background-color: #56BF2B
+.img-icon-feature-wrapper.feature-three
+  background-color: #B7AA08
+
+.img-icon-check-medium-wrapper
+  width: 50px
+  height: 50px
+  background-color: #56BF2B
+  border-radius: 50%
+  border-color: #1976d2
+.img-icon-car-wrapper
+  width: 40px
+  height: 40px
+  background-color: $color-standard
+  border-radius: 50%
+
+
+.select-common
+  .q-input-target
+    margin-left: 25px
+  .q-if-addon
+    position: absolute;
+    left: 10px;
+    font-size: 23px;
+    color: $color-standard
+  .row.no-wrap.relative-position
+    align-items: center
+.select-common.q-if-inverted
+  height: 60px !important
+  border: 1px solid $color-primary !important
+  background-color: #F7F9FD !important
+  margin-right:10px
+  margin-top: 10px
+  padding-left: 0
+  padding-right: 0
+  border-radius: 0
+  box-shadow: none
+  .q-input-target
+    height: 36px
+    line-height: 36px
+    color: $color-standard
+    font-size: 26px
+    margin: 12px 22px
+
+//--- Colors ----//
+.white
+  color: $white !important
+.color-standard
+  color: $color-standard !important
+.bg-color-main
+  background: $color-standard !important
+.bg-color-primary
+  background: linear-gradient(90deg, #D28608 0%, #FBA516 100%) !important
+.bg-color-secondary
+  background: linear-gradient(90deg, #2B7DBF 0%, #4BC6DF 100%) !important
+.bg-color-customer-main
+  background: #F6F6F6
+.bg-color-customer-primary
+  background: #2E2E2E !important
+
+.alpha-main
+  opacity: 0.25
+
+
+//--- Fonts ---//
+.font-family-lato
+  font-family: Lato
+
+.text-font-title, .text-font-1, .text-font-3, .text-font-4,
+.text-font-5, .text-font-6, .text-font-7, .text-font-12, .text-font-15
+  color: $color-standard
+.text-font-main, .text-font-8, .text-font-9, .text-font-10, .text-font-11,
+.text-font-13, .text-font-14, .text-font-17, .text-font-18, .text-font-19,
+.text-font-21
+  color: $color-main
+.text-font-2
+  color: #969696
+.text-font-16
+  color: #609ECF
+
+.text-font-title, .text-font-1, .text-font-5, .text-font-6,
+.text-font-7, .text-font-8, .text-font-11, .text-font-13,
+.text-font-14, .text-font-19, .text-font-20
+  font-weight: $font-weight-regular
+.text-font-main, .text-font-2, .text-font-4, .text-font-9, .text-font-15
+.text-font-17, .text-font-18, .text-font-21
+  font-weight: $font-weight-light
+
+.text-font-main, .text-font-1, .text-font-4, .text-font-8
+.text-font-19
+  line-height: 36px
+.text-font-20
+  line-height: 40px
+.text-font-21
+  line-height: 20px
+
+.text-font-main, .text-font-1, .text-font-4, .text-font-8
+  font-size: 24px
+.text-font-title, .text-font-13
+  font-size: 32px
+.text-font-2, .text-font-9
+  font-size: 20px
+.text-font-3, .text-font-7, .text-font-10, .text-font-15
+  font-size: 14px
+.text-font-5
+  font-size: 44px
+.text-font-6
+  font-size: 30px
+.text-font-11
+  font-size: 16px
+.text-font-12
+  font-size: 26px
+.text-font-14
+  font-size: 44px
+.text-font-16, .text-font-18, .text-font-20
+  font-size: 18px
+.text-font-17
+  font-size: 22px
+.text-font-18
+  line-height: 30px
+.text-font-19
+  font-size: 36px
+.text-font-21
+  font-size: 12px
+
+
+.font-weight-none
+  font-weight: unset !important
+.font-weight-light
+  font-weight: 300 !important
+.font-weight-regular
+  font-weight: 700 !important
+.font-weight-bold
+  font-weight: bold !important
+
+
+//--- Image Icon ---//
+.img-icon-star:after
+  content:url('~assets/img/icon-star.png')
+.img-icon-card-visa:after
+  content:url('~assets/img/icon-card-visa.png')
+.img-icon-card-master:after
+  content:url('~assets/img/icon-card-master.png')
+.img-icon-card-maestro:after
+  content:url('~assets/img/icon-card-maestro.png')
+.img-icon-card-amex:after
+  content:url('~assets/img/icon-card-amex.png')
+.img-icon-clock:after
+  content:url('~assets/img/icon-time-to-complete.png')
+.img-icon-download:after
+  content:url('~assets/img/icon-download.png')
+.img-icon-download-customer:after
+  content:url('~assets/img/icon-download1.png')
+.img-icon-edit:after
+  content:url('~assets/img/icon-edit.png')
+.img-icon-eye:after
+  content:url('~assets/img/icon-eye.png')
+.img-icon-help:after
+  content:url('~assets/img/icon-help.png')
+.img-icon-log-axa:after
+  content:url('~assets/img/insurer-logo-axa.png')
+.img-icon-logo-yoga:after
+  content:url('~assets/img/insurer-logo-yoga.png')
+.img-icon-logo-main:after
+  content:url('~assets/img/logo-yoga.png')
+.img-icon-next:after
+  content:url('~assets/img/icon-question-next.png')
+.img-icon-prev:after
+  content:url('~assets/img/icon-question-prev.png')
+.img-icon-general-help:after
+  content:url('~assets/img/icon-general-help.png')
+.img-icon-close:after
+  content:url('~assets/img/icon-close.png')
+.img-icon-close-customer:after
+  content:url('~assets/img/icon-close1.png')
+
+
+//---- Page Header Begin ----//
+.page-header-box
+  height: 103px
+  padding: 0 4%
+  background: linear-gradient(180deg, #45667C 0%, #213546 100%);
+  .q-tabs-head
+    height: 103px
+    background: transparent !important
+    .q-link.q-tab.active
+      .q-tab-label
+        color: #3F8BA1
+    .q-tabs-bar
+      left: inherit
+      right: inherit
+      width: 50px
+      border-bottom-width: 4px
+  .navigation-box
+    .nav-page-name
+      margin-right: 304px
+    .header-action-btn-box
+      position:absolute
+      top: 28px
+
+
+.account-box, .live-chat-box
+  border-radius: 27px
+  padding 7px 20px
+//box-shadow: 0 20px 50px 0 #CBCBCB;
+.account-box
+  width: 144px
+  background-color: $color-standard
+  .separator
+    height: 1px
+    background-color: #FFFFFF
+    opacity: 0.2
+    margin-top: 5px
+    margin-bottom: 10px
+  .drop-down
+    color: #FFFFFF
+  .log-out
+    margin-bottom: 6px
+.live-chat-box
+  width: 120px
+  height: 45px
+  padding 7px 16px
+  background: linear-gradient(90deg, #D28608 0%, #FBA516 100%)
+.account-text
+  display: block
+  color: $white
+  font-family: Lato
+  font-size: 16px
+  font-weight: bold
+  height: 32px
+  line-height: 32px
+.account-text:hover, .drop-down:hover
+  cursor: pointer
+
+.toolbar-menu-btn
+  .q-icon
+    font-size: 40px
+
+
+//--- Page Footer ---//
+.page-footer-separator
+  height: 30px
+  background-color: $color-standard
+.page-footer-content
+  //height: 370px
+  padding: 49px 7vw
+  background-color: $color-main
+  .useful-link
+    margin-bottom 50px
+  .sign-up-box
+    .description
+      width: 363px
+      height 79px
+      line-height: 24px
+      opacity: 0.25
+    .label
+      height: 48px
+      line-height: 48px
+      font-size: 12px
+      font-weight: bold
+      opacity: 0.25
+    .btn-sign-up
+      width: 149px
+      .q-btn-inner
+        font-family: Lato
+        font-size: 22px
+        font-weight: 900
+        line-height: 27px
+    .q-input-target
+      color: #FFFFFF
+      font-size: 24px
+      font-weight: 300
+      height: 48px
+      line-height: 48px
+    .q-if-standard
+      padding: 0
+    .separator
+      height: 4px
+      margin-bottom: 30px
+      border-bottom: 1px solid #FFFFFF
+      border-right: 1px solid #FFFFFF
+      opacity: 0.25
+
+.page-footer-end
+  //height: 85px
+  padding: 31px 7vw 32px 7vw
+  background-color: #636363
+
+
+//--- Page Fixed Button Box ---//
+.fixed-button-box
+  .btn-prev, .btn-next
+    background-color: $color-standard
+    border-radius: 0
+  .btn-prev.hidden, .btn-next.hidden
+    display block  !important
+    background-color: $color-primary
+  //cursor not-allowed
+  .btn-general-help
+    background-color: $color-main
+    border-radius: 0
+
+
+//--- General Help Box ---//
+.general-help-box
+  opacity: 0.97
+  background: $color-main
+  .btn-wrapper-box
+    margin: 30px
+  .btn-wrapper-box.btn-close
+    background: $white
+  .help-content-box
+    .help-caption
+      color: $white
+      font-size: 28px
+      font-weight: bold
+      line-height: 32px
+      padding-bottom: 17px
+      border-bottom: 1px solid #636363
+      margin-top: 75px
+    .help-content
+      color: #EAEAEA
+      font-size: 20px
+      font-weight: $font-weight-light
+      line-height: 34px
+      margin-top 35px
+    .btn-link
+      margin-top: 53px
+      padding: 12px 28px
+      background: linear-gradient(90deg, $color-standard 0%, #4BC6DF 100%)
+      //box-shadow: 0 20px 50px 0 #CBCBCB
+      border-radius: 27px;
+      color: $white
+      font-family: Lato
+      font-size: 20px
+      font-weight: bold
+      text-align: center
+
+
+//--- Left Drawer ---//
+.q-layout-drawer
+  .q-list-header
+    height 100px
+  .q-item
+    text-align: center
+    height 60px
+
+
+.btn-main
+  height: 60px
+  border-radius: 0
+.btn-round-first, .btn-round-second
+  border-radius: 27px
+  //line-height: 32px
+  text-transform: uppercase
+  box-shadow: 0 20px 50px 0 #CBCBCB
+  .q-btn-inner
+    font-family: Lato
+    font-weight: bold
+    color: $white
+    //line-height: 32px
+.btn-round-first
+  background: linear-gradient(90deg, #2B7DBF 0%, #4BC6DF 100%)
+.btn-round-second
+  background: linear-gradient(90deg, #D28608 0%, #FBA516 100%)
+.title-box-main
+  height: 60px
+  padding: 0 30px
+  background-color: $color-standard
+  .title-text-main
+    height: 29px
+    line-height: 29px
+    font-family: Lato
+    font-size: 24px
+    color: $white
+.btn-nav, .btn-standard
+  padding:12px 22px
+  margin-top: 12px
+  margin-bottom: 12px
+  border-radius: 0
+.q-btn-inner
+  line-height: 36px
+  font-size: 26px
+.btn-nav
+  background: linear-gradient(90deg, #D28608 0%, #FBA516 100%)
+  .q-btn-inner
+    color: $white
+.btn-standard
+  background-color: $color-primary
+  .q-btn-inner
+    color: $color-standard
+.btn-standard.selected
+  background-color: $color-standard
+  .q-btn-inner
+    color: #FFFFFF
+
+
+@media screen and (max-width: 1120px)
+  .toolbar-action-box
+    display: none
+@media screen and (min-width: 1120px)
+  .toolbar-menu-btn
+    display: none
+@media screen and (min-width: 1800px)
+  .q-layout-page
+    max-width 1800px !important
+    margin 0 auto !important
+
+
+//Prometheus added
+.nav-top
+  height: 150px
+  width: 100%
+  position: absolute
+  top: 0
+  left: 0
+.logo-box-alpha
+  opacity: 0.9!important
+
+.img-icon-logo-main-background
+  position: relative
+  top: 50%
+  left: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -moz-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  -o-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+
+.img-icon-logo-main-background:after
+  position: relative
+  top: calc(50% - 35px)
+  left: calc(50% - 69px)
+  -webkit-transform: translate(-50%, -50%)
+  -moz-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  -o-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  content:url('~assets/img/logo-yoga.png')
+
+.side-bar-container {
+  width 100%
+}
+.validation-error-label {
+  padding 0 11px
+  background-color red
+  color #ffffff
+  font-weight bold
+  font-size 20px;
+  margin-top 5px
+  border-radius 50%
+}
+.question-title {
+  float: left
+  margin-right 10px
+}
+.d-flex {
+  display flex
+}
+.text-font-main .validation-error-label {
+  line-height initial!important
+}
