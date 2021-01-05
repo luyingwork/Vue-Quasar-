@@ -11,7 +11,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "import-local-file": "^0.2.0",
     "v-calendar": "^0.9.7",
     "v-offline": "^1.1.0",
